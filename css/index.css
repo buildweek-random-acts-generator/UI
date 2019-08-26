@@ -159,9 +159,19 @@ header nav a {
   color: #fff;
 }
 footer {
-  font-size: 0.8rem;
+  font-size: 1.6rem;
   display: flex;
   flex-wrap: nowrap;
+  width: 100%;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+footer ul li {
+  margin: 0 2%;
 }
 .home {
   max-width: 100%;
@@ -203,12 +213,12 @@ footer {
 .home .body-text .aboutus-content {
   background-color: #4c464d;
   width: 100%;
-  margin: 8% 2%;
+  margin: 5% 2%;
   padding: 2%;
 }
 .home .body-text .aboutus-content h3 {
   font-size: 2.5rem;
-  font-weight: 700;
+  font-weight: 650;
 }
 .home .body-text .aboutus-content h3:after {
   content: "";
