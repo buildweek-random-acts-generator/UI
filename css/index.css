@@ -181,6 +181,11 @@ footer ul li {
   height: 60%;
   z-index: -1;
 }
+@media (max-width: 500px) {
+  .home img {
+    height: 550px;
+  }
+}
 .home .cta-welcome {
   width: 100%;
   position: absolute;
@@ -205,10 +210,22 @@ footer ul li {
   font-size: 3rem;
   margin-top: 3%;
 }
+@media (max-width: 500px) {
+  .home h2 {
+    margin-top: 4%;
+  }
+}
 .home .body-text {
   font-size: 2rem;
   display: flex;
   justify-content: center;
+}
+@media (max-width: 500px) {
+  .home .body-text {
+    width: 90%;
+    flex-direction: column;
+    margin-left: 3%;
+  }
 }
 .home .body-text .aboutus-content {
   background-color: #4c464d;

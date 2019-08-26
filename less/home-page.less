@@ -4,6 +4,9 @@
         width: 100%;
         height: 60%;
         z-index: -1;
+        @media @mobile{
+            height: 550px;
+        }
     }
     .cta-welcome{  
         width: 100%;
@@ -26,11 +29,19 @@
         .flex-mixin(center, center);
         font-size: 3rem;
         margin-top: 3%;
+        @media @mobile {
+            margin-top: 4%;
+        }
     }
     .body-text{
         font-size: 2rem;
         display: flex;
         justify-content: center;
+        @media @mobile{
+            width:90%;
+            flex-direction: column;
+            margin-left: 3%;
+        }
         
         .aboutus-content{
             // .flex-mixin(flex-start, center);
