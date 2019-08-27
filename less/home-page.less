@@ -13,6 +13,12 @@
         position: absolute;
         font-size: 3.6rem;
         padding: 19% 0 0 22%;
+        @media @tablet{
+            padding: 19% 0 0 7%;
+        }
+        @media @mobile{
+            padding: 30% 0 0 8%;
+        }
     }
     button{
         font-size: 1.8rem;
@@ -30,7 +36,10 @@
         font-size: 3rem;
         margin-top: 3%;
         @media @mobile {
-            margin-top: 4%;
+            margin: 8% 0 3% 0;
+        }
+        @media @tablet{
+            margin-top: 6%;
         }
     }
     .body-text{
@@ -40,7 +49,12 @@
         @media @mobile{
             width:90%;
             flex-direction: column;
-            margin-left: 3%;
+            margin: 0 0 8% 3%;
+            padding: 0 1%;
+        }
+        @media @tablet{
+            flex-direction: column;
+            margin: 0 6% 0 3%;
         }
         
         .aboutus-content{
@@ -49,7 +63,10 @@
             // border: 2px solid pink;
             width: 100%;
             margin: 5% 2%;
-            padding: 2%;
+            padding: 4% 6% 6%;
+            @media @tablet{
+                margin: 5% 2% 0 2%;
+            }
             h3{
                 font-size: 2.5rem;
                 font-weight: 650;
