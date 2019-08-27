@@ -153,6 +153,17 @@ header nav {
   width: 100%;
   margin: 1% 2%;
 }
+@media (max-width: 500px) {
+  header nav {
+    margin: 20px 10px 20px 0;
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 800px) {
+  header nav {
+    margin: 20px 10px 20px 0;
+  }
+}
 header nav a {
   padding-right: 5%;
   text-decoration: none;
@@ -163,6 +174,16 @@ footer {
   display: flex;
   flex-wrap: nowrap;
   width: 100%;
+}
+@media (max-width: 500px) {
+  footer {
+    margin-bottom: 3%;
+  }
+}
+@media (max-width: 800px) {
+  footer {
+    margin: 7% 0 3% 0;
+  }
 }
 footer ul {
   display: flex;
@@ -192,6 +213,16 @@ footer ul li {
   font-size: 3.6rem;
   padding: 19% 0 0 22%;
 }
+@media (max-width: 800px) {
+  .home .cta-welcome {
+    padding: 19% 0 0 7%;
+  }
+}
+@media (max-width: 500px) {
+  .home .cta-welcome {
+    padding: 30% 0 0 8%;
+  }
+}
 .home button {
   font-size: 1.8rem;
   color: #fff;
@@ -212,7 +243,12 @@ footer ul li {
 }
 @media (max-width: 500px) {
   .home h2 {
-    margin-top: 4%;
+    margin: 8% 0 3% 0;
+  }
+}
+@media (max-width: 800px) {
+  .home h2 {
+    margin-top: 6%;
   }
 }
 .home .body-text {
@@ -224,14 +260,26 @@ footer ul li {
   .home .body-text {
     width: 90%;
     flex-direction: column;
-    margin-left: 3%;
+    margin: 0 0 8% 3%;
+    padding: 0 1%;
+  }
+}
+@media (max-width: 800px) {
+  .home .body-text {
+    flex-direction: column;
+    margin: 0 6% 0 3%;
   }
 }
 .home .body-text .aboutus-content {
   background-color: #4c464d;
   width: 100%;
   margin: 5% 2%;
-  padding: 2%;
+  padding: 4% 6% 6%;
+}
+@media (max-width: 800px) {
+  .home .body-text .aboutus-content {
+    margin: 5% 2% 0 2%;
+  }
 }
 .home .body-text .aboutus-content h3 {
   font-size: 2.5rem;
