@@ -294,3 +294,6 @@ footer ul li {
   background-color: #C3A9EF;
   margin: 3px 0 15px 0;
 }
+.the-team .person {
+  border: 2px solid white;
+}
