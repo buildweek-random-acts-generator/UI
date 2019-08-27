@@ -297,3 +297,7 @@ footer ul li {
 .the-team .person {
   border: 2px solid white;
 }
+.the-team .person img {
+  height: 100px;
+  width: 100px;
+}
