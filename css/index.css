@@ -198,6 +198,29 @@ footer ul li {
   width: 100%;
   max-height: 1200px;
 }
+.page-container .body-content-team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 3.2rem;
+}
+.page-container .body-content-team h2 {
+  margin: 35px 0;
+}
+.page-container .body-content-team h2:after {
+  content: "";
+  display: block;
+  position: relative;
+  width: 155px;
+  height: 2px;
+  background-color: #C3A9EF;
+  margin: 3px 0 15px 0;
+}
+.page-container p {
+  font-size: 1.7rem;
+  margin: 0 8%;
+}
 .page-container .the-team {
   display: flex;
   flex-wrap: wrap;
@@ -213,20 +236,14 @@ footer ul li {
   overflow: hidden;
   background: #2d2d2d;
 }
-@media (max-width: 500px) {
-  .page-container .the-team .person {
-    width: 100%;
-    flex-direction: column;
-    margin-top: 8%;
-  }
-}
 .page-container .the-team .person h3 {
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   position: relative;
-  margin-top: 3%;
+  margin-top: 2%;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 20px;
 }
 .page-container .the-team .person img {
   position: absolute;
@@ -348,7 +365,7 @@ footer ul li {
   background-color: #4c464d;
   width: 100%;
   margin: 5% 2%;
-  padding: 4% 6% 6%;
+  padding: 2% 1%;
 }
 @media (max-width: 800px) {
   .home .body-text .aboutus-content {
@@ -358,6 +375,7 @@ footer ul li {
 .home .body-text .aboutus-content h3 {
   font-size: 2.5rem;
   font-weight: 650;
+  padding: 0 0 0 7%;
 }
 .home .body-text .aboutus-content h3:after {
   content: "";
