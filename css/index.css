@@ -422,6 +422,9 @@ footer ul li {
   align-items: center;
   flex-direction: column;
 }
+.home .customer-reviews h2 {
+  margin-left: 2%;
+}
 .home .customer-reviews .customer-contain {
   max-width: 900px;
   font-size: 2rem;
@@ -430,7 +433,7 @@ footer ul li {
   align-items: center;
   flex-wrap: wrap;
   margin-bottom: 2%;
-  margin-left: 15%;
+  margin-left: 10%;
 }
 .home .customer-reviews .customer-contain img {
   max-width: 200px;
@@ -453,5 +456,5 @@ footer ul li {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 20%;
+  margin-right: 13%;
 }
