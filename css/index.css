@@ -445,6 +445,11 @@ footer ul li {
   margin-bottom: 2%;
   margin-left: 10%;
 }
+@media (min-width: 2000px) {
+  .home .customer-reviews .customer-contain {
+    margin-right: 5%;
+  }
+}
 @media (max-width: 800px) {
   .home .customer-reviews .customer-contain {
     width: 90%;
