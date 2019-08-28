@@ -175,11 +175,12 @@ footer {
   flex-wrap: nowrap;
   width: 100%;
   margin-top: 4%;
-  margin-bottom: -5%;
+  margin-bottom: 2%;
 }
 @media (max-width: 500px) {
   footer {
     margin-bottom: 3%;
+    padding-bottom: 20px;
   }
 }
 @media (max-width: 800px) {
@@ -424,16 +425,17 @@ footer ul li {
 }
 @media (max-width: 800px) {
   .home .customer-reviews {
-    margin-top: 40%;
+    margin-top: 50%;
   }
 }
 @media (max-width: 500px) {
   .home .customer-reviews {
-    margin-top: 60%;
+    margin-top: 70%;
   }
 }
 .home .customer-reviews h2 {
   margin-left: 2%;
+  width: 95%;
 }
 .home .customer-reviews .customer-contain {
   max-width: 90%;
@@ -490,10 +492,15 @@ footer ul li {
 }
 .home .customer-reviews .customer-contain .customers h4 {
   width: 100%;
-  margin: 30px 0 0 100px;
+  margin: 30px 0 0 75px;
   font-size: 2.6rem;
 }
 @media (min-width: 2000px) {
+  .home .customer-reviews .customer-contain .customers h4 {
+    margin-left: 35%;
+  }
+}
+@media (max-width: 800px) {
   .home .customer-reviews .customer-contain .customers h4 {
     margin-left: 35%;
   }
@@ -504,19 +511,35 @@ footer ul li {
   }
 }
 .home .customer-reviews .customer-contain .customers .customer1 {
-  margin-left: 34%;
+  margin-left: 30%;
 }
 @media (min-width: 2000px) {
   .home .customer-reviews .customer-contain .customers .customer1 {
     margin-left: 40%;
   }
 }
+@media (max-width: 800px) {
+  .home .customer-reviews .customer-contain .customers .customer1 {
+    margin-left: 40%;
+  }
+}
+@media (max-width: 500px) {
+  .home .customer-reviews .customer-contain .customers .customer1 {
+    margin-left: 35%;
+  }
+}
 .home .customer-reviews .customer-contain .customers img {
-  max-width: 200px;
-  max-height: 200px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   box-shadow: 0px 0px 5px 0px rgba(255, 123, 226, 0.2);
 }
 .home .customer-reviews .customer-contain .customers p {
   margin-top: 20px;
+}
+.home .customer-reviews .customer-contain #michelle {
+  margin-bottom: 8.5%;
+}
+.home .customer-reviews .customer-contain #meredith {
+  margin-bottom: 7%;
 }
