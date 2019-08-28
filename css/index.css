@@ -543,3 +543,8 @@ footer ul li {
 .home .customer-reviews .customer-contain #meredith {
   margin-bottom: 7%;
 }
+@media (min-width: 2000px) {
+  .home .customer-reviews .customer-contain #Ann {
+    margin-bottom: 7%;
+  }
+}
