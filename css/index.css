@@ -226,6 +226,11 @@ footer ul li {
   flex-wrap: wrap;
   justify-content: center;
 }
+@media (max-width: 500px) {
+  .page-container .the-team {
+    flex-direction: column;
+  }
+}
 .page-container .the-team .person {
   width: 40%;
   max-width: 500px;
@@ -235,6 +240,11 @@ footer ul li {
   border-radius: 20px;
   overflow: hidden;
   background: #2d2d2d;
+}
+@media (max-width: 500px) {
+  .page-container .the-team .person {
+    width: 80%;
+  }
 }
 .page-container .the-team .person h3 {
   font-size: 2.4rem;
@@ -284,6 +294,11 @@ footer ul li {
   justify-content: center;
   align-items: flex-start;
   margin-top: 25%;
+}
+@media (max-width: 500px) {
+  .page-container .the-team h2 {
+    margin-top: 30%;
+  }
 }
 .home {
   max-width: 100%;
