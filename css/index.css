@@ -422,6 +422,16 @@ footer ul li {
   align-items: center;
   flex-direction: column;
 }
+@media (max-width: 800px) {
+  .home .customer-reviews {
+    margin-top: 30%;
+  }
+}
+@media (max-width: 500px) {
+  .home .customer-reviews {
+    margin-top: 46%;
+  }
+}
 .home .customer-reviews h2 {
   margin-left: 2%;
 }
@@ -435,12 +445,30 @@ footer ul li {
   margin-bottom: 2%;
   margin-left: 10%;
 }
+@media (max-width: 800px) {
+  .home .customer-reviews .customer-contain {
+    width: 90%;
+    max-width: 800px;
+    margin-left: 0;
+  }
+}
+@media (max-width: 500px) {
+  .home .customer-reviews .customer-contain {
+    width: 90%;
+    max-width: 500px;
+  }
+}
 .home .customer-reviews .customer-contain img {
   max-width: 200px;
   max-height: 200px;
   border-radius: 50%;
   margin-left: 5%;
   box-shadow: 0px 0px 5px 0px rgba(255, 123, 226, 0.2);
+}
+@media (max-width: 800px) {
+  .home .customer-reviews .customer-contain img {
+    position: relative;
+  }
 }
 .home .customer-reviews .customer-contain .customer1 {
   margin-top: 3%;
@@ -457,4 +485,16 @@ footer ul li {
   justify-content: center;
   align-items: center;
   margin-right: 13%;
+}
+@media (max-width: 800px) {
+  .home .customer-reviews .customer-contain h4 {
+    margin-left: 16%;
+    margin-top: 12px;
+  }
+}
+@media (max-width: 500px) {
+  .home .customer-reviews .customer-contain h4 {
+    margin-left: 18%;
+    margin-top: 10px;
+  }
 }
