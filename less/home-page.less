@@ -104,9 +104,6 @@
             .flex-mixin(center,center);
             flex-wrap: wrap;
             margin-bottom: 2%;
-            @media @wide-screen{
-                margin-right: 5%;
-        }
             @media @tablet{
                 flex-direction: column;
                 width: 100%;
@@ -144,7 +141,9 @@
                     width: 100%;
                     margin: 30px 0 0 100px;
                     font-size: 2.6rem;
-
+                    @media @wide-screen{
+                        margin-left: 35%;
+                    }
                     @media @tablet{
 
                     }
@@ -154,6 +153,9 @@
                 }
                 .customer1{
                     margin-left: 34%;
+                    @media @wide-screen{
+                        margin-left: 40%;
+                    }
                 }
 
                 img{
