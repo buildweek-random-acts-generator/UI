@@ -243,7 +243,8 @@ footer ul li {
 }
 @media (max-width: 500px) {
   .page-container .the-team .person {
-    width: 80%;
+    width: 90%;
+    max-width: 450px;
   }
 }
 .page-container .the-team .person h3 {
@@ -254,6 +255,11 @@ footer ul li {
   justify-content: center;
   align-items: center;
   padding-bottom: 20px;
+}
+@media (max-width: 800px) {
+  .page-container .the-team .person h3 {
+    margin-top: 5%;
+  }
 }
 .page-container .the-team .person img {
   position: absolute;
@@ -295,9 +301,14 @@ footer ul li {
   align-items: flex-start;
   margin-top: 25%;
 }
+@media (max-width: 800px) {
+  .page-container .the-team h2 {
+    margin-top: 35%;
+  }
+}
 @media (max-width: 500px) {
   .page-container .the-team h2 {
-    margin-top: 30%;
+    margin-top: 27%;
   }
 }
 .home {
