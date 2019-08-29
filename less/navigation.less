@@ -2,6 +2,10 @@ header{
     padding-left: 2%;
     .flex-mixin(space-beween, center);
     font-size: 2.2rem;
+    a{
+        text-decoration: none;
+        color: @font-color;
+    }
     nav{
     .flex-mixin(flex-end, center);
     width: 100%;
@@ -13,7 +17,6 @@ header{
     @media @tablet{
         margin: 20px 10px 20px 0;
     }
-    
     a{
         padding-right: 5%;
         text-decoration: none;
