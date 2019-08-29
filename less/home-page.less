@@ -58,9 +58,7 @@
         }
         
         .aboutus-content{
-            // .flex-mixin(flex-start, center);
             background-color: @about-color;
-            // border: 2px solid pink;
             width: 100%;
             margin: 5% 2%;
             padding: 2% 1%;
@@ -89,14 +87,15 @@
         .flex-mixin(center,center);
         flex-direction: column;
         @media @tablet{
-            margin-top: 40%;
+            margin-top: 50%;
         }
         @media @mobile{
-            margin-top: 60%;
+            margin-top: 70%;
         }
         
         h2{
             margin-left: 2%;
+            width: 95%;
         }
         .customer-contain{
             max-width: 90%;
@@ -139,28 +138,34 @@
                 }
                 h4{
                     width: 100%;
-                    margin: 30px 0 0 100px;
+                    margin: 30px 0 0 75px;
                     font-size: 2.6rem;
                     @media @wide-screen{
                         margin-left: 35%;
                     }
                     @media @tablet{
-
+                        margin-left: 35%;
                     }
                     @media @mobile{
                         margin-left: 30%;
                     }
                 }
                 .customer1{
-                    margin-left: 34%;
+                    margin-left: 30%;
                     @media @wide-screen{
                         margin-left: 40%;
+                    }
+                    @media @tablet{
+                        margin-left: 40%;
+                    }
+                    @media @mobile{
+                        margin-left: 35%;
                     }
                 }
 
                 img{
-                    max-width: 200px;
-                    max-height: 200px;
+                    width: 200px;
+                    height: 200px;
                     border-radius: 50%;
                     box-shadow: 0px 0px 5px 0px rgba(255, 123, 226, 0.2);
                 }
@@ -168,6 +173,17 @@
                     margin-top: 20px;
                 }
             
+        }
+        #michelle{
+            margin-bottom: 8.5%;
+        }
+        #meredith{
+            margin-bottom: 7%;
+        }
+        #Ann{
+            @media @wide-screen{
+                margin-bottom: 7%;
+            }
         }
     }
 
